@@ -3,11 +3,11 @@ import './Aside.css';
 function Aside() {
   return (
     <aside
-      className="fixed top-0 left-0 z-40 w-64 h-screen pt-14 transition-transform -translate-x-full bg-white border-r border-gray-200 md:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+      className="fixed top-0 left-0 z-40 w-64 h-screen pt-14 transition-transform -translate-x-full bg-white border-r border-gray-200 md:translate-x-0 dark:bg-zinc-900 dark:border-gray-700"
       aria-label="Sidenav"
       id="drawer-navigation"
     >
-      <div className="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
+      <div className="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-zinc-900">
         <form action="#" method="GET" className="md:hidden mb-2">
           <label htmlFor="sidebar-search" className="sr-only">
             Search
@@ -332,7 +332,7 @@ function Aside() {
           </li>
         </ul>
       </div>
-      <div className="hidden absolute bottom-0 left-0 justify-center p-4 space-x-4 w-full lg:flex bg-white dark:bg-gray-800 z-20">
+      <div className="hidden absolute bottom-0 left-0 justify-center p-4 space-x-4 w-full lg:flex bg-white dark:bg-zinc-900 z-20">
         <a
           href="#"
           className="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-600"

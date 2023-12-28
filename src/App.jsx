@@ -6,7 +6,7 @@ import Main from './components/main/Main.jsx';
 function App() {
   return (
     <>
-      <div className="antialiased bg-gray-50 dark:bg-gray-900">
+      <div className="app">
         <Nav />
         <Aside />
         <Main />
