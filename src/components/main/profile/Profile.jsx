@@ -1,6 +1,6 @@
-import './Profile.css';
-import Default_image from '/src/assets/image/default-image.jpg';
-import Default_user from '/src/assets/image/default-user.jpg';
+import styles from './Profile.module.css';
+import defaultImage from '/src/assets/image/default-image.jpg';
+import defaultUser from '/src/assets/image/default-user.jpg';
 
 function Profile() {
   return (
@@ -8,45 +8,41 @@ function Profile() {
       <div className=" mb-4">
         <img
           className="w-screen object-cover h-60 border-2 rounded-lg border-gray-300 dark:border-gray-700"
-          src={Default_image}
+          src={defaultImage}
           alt="Profile wallpaper"
         />
       </div>
       <div className="flex flex-col md:flex-row gap-4">
         <div className="max-w-80">
-          <img className="rounded-lg" src={Default_user} alt="Profile image" />
+          <img className="rounded-lg" src={defaultUser} alt="Profile image" />
         </div>
         <div className="grid col-auto">
           <div className="mb-2">
-            <h1 className="text-3xl text-gray-900 dark:text-white">
-              Name Surname
-            </h1>
+            <h1 className={styles.h1}>Name Surname</h1>
           </div>
-          <div className="">
-            <p className="text-lg text-gray-900 dark:text-white">
-              Date of Birth:
-            </p>
+          <div>
+            <p className={styles.p}>Date of Birth:</p>
           </div>
-          <div className="">
-            <p className="text-lg text-gray-900 dark:text-white">City:</p>
+          <div>
+            <p className={styles.p}>City:</p>
           </div>
-          <div className="">
-            <p className="text-lg text-gray-900 dark:text-white">Education:</p>
+          <div>
+            <p className={styles.p}>Education:</p>
           </div>
-          <div className="">
-            <p className="text-lg text-gray-900 dark:text-white">Web Site:</p>
+          <div>
+            <p className={styles.p}>Web Site:</p>
           </div>
         </div>
       </div>
       <hr className="max-w-96 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
       {/* Posts */}
-      <div className="">
+      <div>
         <div className="mb-4">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
             Posts
           </h2>
         </div>
-        <div className="">
+        <div>
           <form>
             <div className="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
               <div className="flex items-center justify-between px-3 py-2 border-b dark:border-gray-600">

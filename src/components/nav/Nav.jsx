@@ -44,13 +44,11 @@ function Nav() {
             className="flex items-center justify-between mr-4"
           >
             <img
-              src="https://flowbite.s3.amazonaws.com/logo.svg"
+              src="./bilcom-logo.svg"
               className="mr-3 h-8"
-              alt="Flowbite Logo"
+              alt="Bilcom Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Bilcom
-            </span>
+            <img src="./bilcom-text.svg" className="h-7" alt="Bilcom text" />
           </a>
           <form action="#" method="GET" className="hidden md:block md:pl-2">
             <label htmlFor="topbar-search" className="sr-only">

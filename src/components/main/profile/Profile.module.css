@@ -1,0 +1,6 @@
+.p {
+    @apply text-lg text-gray-900 dark:text-white;
+}
+.h1 {
+    @apply text-3xl text-gray-900 dark:text-white;
+}
